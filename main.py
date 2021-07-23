@@ -1,2 +1,5 @@
+from numberutils import analyzer
+
 if __name__ == '__main__':
-    print('Hello World')
+    nu = analyzer.NumberAnalyzer()
+    print("{} is even: {}".format(5, nu.is_even(5)))
