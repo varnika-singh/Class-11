@@ -8,9 +8,9 @@ if __name__ == '__main__':
             num = int(input("Number: "))
             if num == 0:
                 break
-            if nu.is_even(num) == True:
-                print("{} is even".format(num))
-            else:
+            if nu.is_even(num) == False:
                 print("{} is odd".format(num))
+            else:
+                print("{} is even".format(num))
         except Exception as e:
             print("enter a valid number. try again...")
